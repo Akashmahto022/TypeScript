@@ -15,6 +15,16 @@ let isLoggedIn: boolean = true
 
 
 
+// any
+
+let hero: string;
+
+function getHero(){
+    return "thor"
+}
+
+hero = getHero()
+
 
 
 export {}
