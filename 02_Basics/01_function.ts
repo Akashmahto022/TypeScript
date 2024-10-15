@@ -21,5 +21,40 @@ getUpper("akash mahto")
 
 addTwo(10)
 
+
+function getValue(value: number){
+    if (value>5) {
+        return true
+    }
+    return '200'
+}
+
+const getHello = (str: string): string=>{
+    return "hello"
+}
+
+const heros = ['thor', 'spiderman', 'ironman']
+
+heros.map((hero):string=>{
+    return `hero is ${hero}`
+    // return 1
+})
+
+
+function logError(errmessage:string): void{
+    console.log(errmessage)
+}
+
+function handleError(errmessage:string): never{
+    throw new Error(errmessage)
+    // console.log(errmessage)
+}
+
+
+
+
+
 export{}
+
+
 
