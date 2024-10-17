@@ -35,6 +35,16 @@ function getDbId(id: number | string){
 
 
 
+
 getDbId(3)
 getDbId("asdADA")
 
+
+const data: (number | string | boolean)[]= [1, "two", true]
+
+let pi:3.14 = 3.14
+
+let seatAllotment: "aisle" | "middle" | "windoe"
+
+seatAllotment = "aisle"
+// seatAllotment = 'crew' givin the error
