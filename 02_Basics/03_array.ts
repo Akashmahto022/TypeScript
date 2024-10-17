@@ -13,5 +13,8 @@ const MLModels: number[][] = [
     [555, 2525, 4122],
     []
 ]
-
+ 
 superHeros.push({ name: "Spiderman", power: 123 })
+
+
+export {}
