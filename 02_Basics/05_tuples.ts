@@ -14,6 +14,9 @@ type User = [number, string]
 const newUser: User = [21, "Akash"]
 
 newUser[0]= 1
-newUser.push(true)
+
+const people = ["hello", true,  12]
+
+
 
 
