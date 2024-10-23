@@ -1,6 +1,10 @@
 "use strict";
-console.log("typescript in here");
-console.log("acva scbhcv scb");
-console.log("acva scbhcv scb");
-console.log("acva scbhcv scb");
-console.log("acva scbhcv scb");
+class User {
+    constructor(email, name) {
+        this.city = "";
+        this.email = email;
+        this.name = name;
+    }
+}
+const hitesh = new User("one@gmial.com", "Akash");
+hitesh.city = "Delhi";
