@@ -10,6 +10,8 @@
 
 // }
 class User {
+    private courseCount = 1
+
     constructor(
         public email: string,
         public name: string
@@ -18,6 +20,20 @@ class User {
         this.name = name
     }
 
+    get getEmail():string{
+        return `email is ${this.email}`
+    }
+
+    get courseCountNo():Number{
+        return this.courseCount
+    }
+
+    set courseSetter(number: number){
+        if (number <= 1) {
+            throw new Error("number should be more than 1")
+        }
+        this.courseCount = number
+    }
 
 }
 
